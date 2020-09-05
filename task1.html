@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="task1.css">
+	<title>Calculator using HTML, CSS, JS</title>
+	<script src="input.js"></script>
+</head>
+<body>
+	<div>
+			<input class="inp" type="text" placeholder="enter" id="result"/> <br>
+			<input class="btn" type="button" value="7" onclick="updateres(7)"/>
+			<input class="btn" type="button" value="8" onclick="updateres(8)"/>
+			<input class="btn" type="button" value="9" onclick="updateres(9)"/>
+			<input class="btn" type="button" value="+" onclick="updateres('+')"/>
+			<input class="btn" type="button" value="*" onclick="updateres('*')"/>
+			<br>
+			<input class="btn" type="button" value="4" onclick="updateres(4)"/>
+			<input class="btn" type="button" value="5" onclick="updateres(5)"/>
+			<input class="btn" type="button" value="6" onclick="updateres(6)"/>
+			<input class="btn" type="button" value="-" onclick="updateres('-')"/>
+			<input class="btn" type="button" value="X" onclick="backspace()"/>
+			<br>
+			<input class="btn" type="button" value="1" onclick="updateres(1)"/>
+			<input class="btn" type="button" value="2" onclick="updateres(2)"/>
+			<input class="btn" type="button" value="3" onclick="updateres(3)"/>
+			<input class="btn" type="button" value="/" onclick="updateres('/')"/>
+			<input class="btn" type="button" value="%" onclick="updateres('%')"/>
+			<br>
+			<input class="btn" type="button" value="." onclick="updateres('.')"/>
+			<input class="btn" type="button" value="0" onclick="updateres(0)"/>
+			<input class="btn" type="button" value="=" onclick="showresult()"/>
+			<input class="btn" type="button" value="abs" onclick="absfun()"/>
+			<input class="btn" type="button" value="sqrt" onclick="sqrtfun()"/>
+			<br>
+			<input class="btn" type="button" value="C" onclick="clr()"/>
+	</div>	
+</body>
+</html> 
